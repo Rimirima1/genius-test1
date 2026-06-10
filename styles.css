@@ -41,6 +41,7 @@ ul {
 /* hero */
 .hero {
   color: #faf4ed;
+  font-family: serif;
 }
 .hero .accent {
   color: var(--color-primary);
