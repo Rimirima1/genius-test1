@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  border: 5px solid orange;
+}
+
+.headerlink {
+  color: rgb(204, 255, 0);
+}
+.headerlink:hover {
+  color: black;
+}
+
+.hero {
+  color: #819b57;
+}

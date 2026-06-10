@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <style>
+      h1 {
+        background-color: aquamarine;
+      }
+      h2 {
+        background-color: blue;
+      }
+    </style>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/shop bakery.svg" alt="Логотип" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="headerlink" href="#traditions">Наші традиції</a></li>
+          <li><a class="headerlink" href="#chefs">Шеф-кухарі</a></li>
+          <li><a class="headerlink" href="#formats">Формати</a></li>
+          <li><a class="headerlink" href="#contscts">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
@@ -23,10 +32,10 @@
     <main>
       <!-- 1 -->
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero"><span>Сучасна</span> пекарня</h1>
       </section>
       <!-- 2 -->
-      <section>
+      <section id="traditions">
         <ul>
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
@@ -42,11 +51,13 @@
           <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень
           стильний дизайн та висока якість обслуговування!
         </p>
-        <img src="./images/bakerman.jpg" 
-        alt="Bakerman чулувік дивиться на хліб" />
+        <img
+          src="./images/bakerman.jpg"
+          alt="Bakerman чулувік дивиться на хліб"
+        />
       </section>
       <!-- 3 -->
-      <section>
+      <section id="chefs">
         <h2>Наші найкращі шеф-кухарі</h2>
         <ul>
           <li>
@@ -71,7 +82,7 @@
         </ul>
       </section>
       <!-- 4 -->
-      <section>
+      <section id="formats">
         <h2>Формати</h2>
         <ul>
           <li>
@@ -92,8 +103,34 @@
         </ul>
       </section>
       <!-- 5 -->
-      <section>
+      <section id="contscts">
         <h2>Приєднуйтеся до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1959991851927!2d30.49162787606087!3d50.45607478695942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce63f5dac66b%3A0xa8e72fb0c7cb5f44!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTMsINCa0LjRl9CyLCAwNDA1Mw!5e0!3m2!1suk!2sua!4v1779879048605!5m2!1suk!2sua"
+          width="603"
+          height="596"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XXIX2WnfbpE?si=9PNvOZSESgBpzhEh"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </section>
     </main>
     <footer>
